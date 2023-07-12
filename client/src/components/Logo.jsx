@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import LogoWhite from '@/images/logo.png'
-import LogoDark from '@/images/logo-dark.png'
 
 export function Logomark(props) {
   return (
@@ -15,9 +14,9 @@ export function Logomark(props) {
 }
 
 export function LogoW(props) {
-  return <Image src={LogoWhite} className='w-48 sm:w-64' />
+  return <Image src={LogoWhite} className="w-12" alt="logo" />
 }
 
 export function LogoB(props) {
-  return <Image src={LogoDark} className='w-48 sm:w-64' />
+  return <Image src={LogoWhite} className="w-12" alt="logo" />
 }

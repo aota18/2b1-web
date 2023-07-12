@@ -6,19 +6,16 @@ import { KeyMessage } from '@/components/KeyMessage'
 import { PageHero } from '@/components/PageHero'
 import { PhotoMessage } from '@/components/PhotoMessage'
 import { Website } from '@/utils/variables'
-import backgroundImage from '@/images/sample/IMG_3172.jpg'
-import HomelessImg from '@/images/sample/IMG_0074.jpg'
+import backgroundImage from '@/images/sample/img_main.jpg'
+import HomelessImg from '@/images/sample/img_main.jpg'
 import Head from 'next/head'
 import Image from 'next/image'
 import { PhotoMessageRight } from '@/components/PhotoMessageRight'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 
-
 export default function WhatWeDo() {
-
-  const {t} = useTranslation(['what-we-do', 'home']);
-
+  const { t } = useTranslation(['what-we-do', 'home'])
 
   return (
     <>
@@ -45,10 +42,23 @@ export default function WhatWeDo() {
             />
           </div>
           <PageHero title={t('home:header.what_we_do')} />
-          <KeyMessage title={t('key_message1_title')} text={t('key_message1_detail')} />
-          <PhotoMessage title={t('street_people_title')} text={t('street_people_detail')} photo={HomelessImg} />
-          <KeyMessage title={t('key_message2_title')} text={t('key_message2_detail')} />
-          <PhotoMessageRight title={t('home:mission_title')} text={t('home:mission_detail')} />
+          <KeyMessage
+            title={t('key_message1_title')}
+            text={t('key_message1_detail')}
+          />
+          <PhotoMessage
+            title={t('street_people_title')}
+            text={t('street_people_detail')}
+            photo={HomelessImg}
+          />
+          <KeyMessage
+            title={t('key_message2_title')}
+            text={t('key_message2_detail')}
+          />
+          <PhotoMessageRight
+            title={t('home:mission_title')}
+            text={t('home:mission_detail')}
+          />
           <CallToAction />
         </div>
       </main>
@@ -57,11 +67,10 @@ export default function WhatWeDo() {
   )
 }
 
-
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['home','what-we-do'])),
+      ...(await serverSideTranslations(locale, ['home', 'what-we-do'])),
       // Will be passed to the page component as props
     },
   }

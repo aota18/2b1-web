@@ -1,22 +1,22 @@
 {
-    "key_message_detail":"\"Tell the poor the good news and give freedom to the captives Let us go forward together in proclaiming the blind to see again, to release the oppressed, and to proclaim the year of your grace.\" (Luke 4:18)",
-    "ways":{
-        "prayer":"Prayer",
-        "prayer_detail": "Pray for our ministry. Your intercessory prayer help us to receive the power of love of Jesus.",
-        "volunteer": "Volunteer",
-        "volunteer_detail": "Join our team of volunteers and show love and kindness to our neighbours in need.",
-        "support":"Support",
-        "support_detail": "Support our ministry by registering as regular supporter.",
-        "donate": "Donate",
-        "donate_detail": "Provide us clothing, food and other essentials for our members."
-    },
-    "faq":{
-        "title": "Frequently asked question",
-        "q1":"When is the service in House of Restoration?",
-        "a1": "Currently, we are serving people on 11:00AM to 01:00PM, every saturday."
-    },
-    "get-in-touch":{
-        "title": "Get in touch",
-        "detail": "We would love to hear from you. Please send us an email to here if you have any inquiries about our ministry. Your privacy will be respected."
-    }
+  "key_message_detail": "\"Father, protect them by the power of your name, the name you gave me, so that they may be one as we are one.\" (John 17:11)",
+  "ways": {
+    "prayer": "Prayer",
+    "prayer_detail": "Pray for our ministry. Your intercessory prayer help us to receive the power of love of Jesus.",
+    "volunteer": "Volunteer",
+    "volunteer_detail": "Join our team of volunteers and show love and kindness to our neighbours in need.",
+    "support": "Support",
+    "support_detail": "Support our ministry by registering as regular supporter.",
+    "donate": "Donate",
+    "donate_detail": "Provide us clothing, food and other essentials for our members."
+  },
+  "faq": {
+    "title": "Frequently asked question",
+    "q1": "When is the service in House of Restoration?",
+    "a1": "Currently, we are serving people on 11:00AM to 01:00PM, every saturday."
+  },
+  "get-in-touch": {
+    "title": "Get in touch",
+    "detail": "We would love to hear from you. Please send us an email to here if you have any inquiries about our ministry. Your privacy will be respected."
+  }
 }

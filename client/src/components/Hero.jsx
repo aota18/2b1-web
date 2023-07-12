@@ -6,7 +6,7 @@ import { motion, useInView, useMotionValue } from 'framer-motion'
 import { AppScreen } from '@/components/AppScreen'
 import { Container } from '@/components/Container'
 import { useTranslation } from 'next-i18next'
-import backgroundImage from '@/images/sample/IMG_0363.jpg'
+import backgroundImage from '@/images/sample/img_main.jpg'
 
 function BackgroundIllustration(props) {
   let id = useId()
@@ -29,7 +29,8 @@ function BackgroundIllustration(props) {
           stroke={`url(#${id}-gradient-1)`}
           strokeLinecap="round"
         />
-        <defs>n
+        <defs>
+          n
           <linearGradient
             id={`${id}-gradient-1`}
             x1="1"
@@ -329,18 +330,17 @@ export function Hero() {
   const { t } = useTranslation('home')
 
   return (
-    <div className="relative py-24  min-h-1/2">
-      <div className="absolute inset-x-0 -bottom-14 -top-40 translate-y-56 overflow-hidden lg:translate-y-[0%] ">
+    <div className="relative min-h-1/2  py-32">
+      <div className="absolute inset-x-0 -bottom-14 -top-32 translate-y-40 overflow-hidden lg:translate-y-[0%] ">
         <Image
-          className="absolute scale-110 brightness-70 "
-    
+          className="absolute w-full scale-110 brightness-70"
           src={backgroundImage}
           alt=""
           priority
           unoptimized
         />
       </div>
-      <div className=" mt-0 overflow-hidden xs:my-32 sm:py-16 lg:pb-16 lg:my-16 xl:pb-36">
+      <div className=" xs:my-32 mt-0 overflow-hidden sm:py-16 lg:my-16 lg:pb-16 xl:pb-36">
         <Container>
           <div className="lg:grid lg:grid-cols-12 lg:gap-x-8 lg:gap-y-20">
             <div className="relative z-10 mx-auto max-w-2xl lg:col-span-7 lg:max-w-none lg:pt-6 xl:col-span-6">
@@ -348,7 +348,7 @@ export function Hero() {
                 {t('headline')}
               </h1>
               <p className="mt-6 text-sm text-white sm:text-xl">
-              {t('headline_detail')}
+                {t('headline_detail')}
               </p>
             </div>
           </div>

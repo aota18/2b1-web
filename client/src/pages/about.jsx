@@ -4,13 +4,12 @@ import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { Website } from '@/utils/variables'
 import { Header } from '@/components/Header'
-import backgroundImage from '@/images/sample/IMG_2096.jpg'
+import backgroundImage from '@/images/sample/img_main.jpg'
 import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { PageHero } from '@/components/PageHero'
 import { History } from '@/components/History'
 import { Footer } from '@/components/Footer'
-import FamilyImg from '@/images/sample/IMG_0360.png'
 import { KeyMessage } from '@/components/KeyMessage'
 
 export default function About() {
@@ -33,6 +32,7 @@ export default function About() {
               alt=""
               priority
               unoptimized
+              width={1920}
             />
           </div>
           <PageHero title={t('home:header.our_story')} />
@@ -45,13 +45,7 @@ export default function About() {
             <Container>
               <div className="grid grid-cols-1 gap-8">
                 <div className=" flex w-full flex-col items-center justify-center">
-                  <Image
-                    src={FamilyImg}
-                    alt=""
-                    width={800}
-                    unoptimized
-                    className="rounded-lg"
-                  />
+                  <h1 className="text-3xl font-extrabold">2B1 Foundation </h1>
                 </div>
                 <div className="mt-8 flex flex-col items-center">
                   <p className="max-w-3xl  text-lg text-gray-600">
@@ -61,12 +55,15 @@ export default function About() {
                   <p className="max-w-3xl text-lg  text-gray-600">
                     {t('paragraph.second')}
                   </p>
+
+                  <p className="max-w-3xl text-lg  text-gray-600">
+                    {t('paragraph.third')}
+                  </p>
                 </div>
 
                 <KeyMessage text={t('paragraph.key')} />
               </div>
             </Container>
-            <History />
           </section>
         </div>
       </main>

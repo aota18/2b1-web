@@ -6,30 +6,33 @@
     "ways_to_give": "ways to give",
     "contact": "contact"
   },
-  "headline": "Bring back my lost Children",
-  "headline_detail": "To open their eyes, so that they may turn from darkness to light and from the power of Satan to God, that they may receive forgiveness of sins and a place among those who are sanctified by faith in me. (Acts 26:18)",
-  "mission_title": "Our Mission",
-  "mission_detail": "Our mission is to train Street People reborn in the Lord as missionaries and to cultivate missionaries who can help native North American regions and countries and peoples where the gospel is withering.",
+  "headline": "One Korea through the Gospel",
+  "headline_detail": "Korea has long history over 4000 years. Korean peninsula is one. It was one and it should be one.",
+  "story_title": "Our Story",
+  "story_detail": "The 2B1 Foundation is a non-profit organization with a Reconciliation Ministry. It all started with a family living in Silicon Valley. \n We focus on relating. We focus on beauty rather than the things of political or military conflict. We would like to emphasize that Korea are one by introducing the people, nature and food of Korea. For the past 70 years, we have lived seperately with our own cultural identity, but now we must come together. \n We believe that true unity can only be achieved through the Gospel.",
   "ministry_title": "Ministries",
-  "ministry": {
-    "street_service": {
-      "name": "Street Service",
-      "date": "Every Saturday",
-      "where": ""
+  "mission": {
+    "oneness": {
+      "title": "The Oneness",
+      "desc": "We believe that only the Gospel can make perfect oneness. "
     },
-    "busking_worship": {
-      "name": "Busking Worship",
-      "date": "Every Thursday",
-      "where": ""
+    "reconciliation": {
+      "title": "Reconciliation",
+      "desc": "We prioritize the Reconciliation Ministry which unites conflicting relationships, regions, and countries through the Gospel.  "
+    },
+    "movement": {
+      "title": "Movement",
+      "desc": "We do a non-political movement. We carry out a practical and constructive ‘Unitifaction Movement’ such as education, cultural movement, and technology development. "
     }
   },
   "btn": {
     "donate": "Donate",
     "learn_more": "Learn more",
+    "read_more": "Read more",
     "contact": "Contact"
   },
   "support": {
     "title": "Support us",
-    "detail": "Help us get the Street People back"
+    "detail": "Donate towards Korean unification to end suffering, promote peace, \n and unlock economic potential for the entire Korean peninsula."
   }
 }

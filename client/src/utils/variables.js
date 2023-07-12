@@ -1,5 +1,6 @@
-export const STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/5kA9CL0o2fRkcikbII'
+export const STRIPE_PAYMENT_LINK =
+  'https://donate.stripe.com/00g4hzdKg1GD0Fi3cc'
 export const Website = {
-  fullname: 'House of Restoration',
-  shortname: 'HoR',
+  fullname: '2B1 Foundation',
+  shortname: '2B1',
 }

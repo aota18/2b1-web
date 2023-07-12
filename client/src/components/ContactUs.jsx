@@ -15,23 +15,23 @@ export default function ContactUs({ t }) {
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
               <div className="rounded-2xl bg-gray-50 p-10">
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
-                  House of Restoration
+                  2B1 Foundation
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                   <div>
                     <dt className="sr-only">Email</dt>
                     <dd>
                       <a
-                        className="font-semibold text-red-700"
+                        className="font-semibold text-primary"
                         href="mailto:admin@horestoration.org"
                       >
-                        admin@horestoration.org
+                        admin@2b1foundation.org
                       </a>
                     </dd>
                   </div>
                   <div className="mt-1">
                     <dt className="sr-only">Phone number</dt>
-                    <dd>+1 (778) 798-9351</dd>
+                    <dd>+1 (408) 244-0100</dd>
                   </div>
                 </dl>
               </div>

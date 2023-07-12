@@ -110,8 +110,8 @@ export function Footer() {
           </form> */}
 
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
-            &copy; {new Date().getFullYear()} Surrey House of Restoration. Reg Canadian
-            Charity 87267 1912 RR0001
+            &copy; {new Date().getFullYear()} 2B1 Foundation. Registered 501(c)
+            EIN : 87-3631013
           </p>
         </div>
       </Container>

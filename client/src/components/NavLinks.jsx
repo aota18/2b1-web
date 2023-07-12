@@ -9,7 +9,7 @@ export function NavLinks() {
   const Navs = [
     [t('header.home'), '/'],
     [t('header.our_story'), '/about'],
-    [t('header.what_we_do'), '/what-we-do'],
+    // [t('header.what_we_do'), '/what-we-do'],
     [t('header.ways_to_give'), '/ways-to-give'],
     [t('header.contact'), '/ways-to-give/#contact'],
   ]

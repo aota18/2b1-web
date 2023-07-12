@@ -1,11 +1,10 @@
 import Head from 'next/head'
 
-
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import { Website } from '@/utils/variables'
 import { Header } from '@/components/Header'
-import backgroundImage from '@/images/sample/IMG_1629.jpg'
+import backgroundImage from '@/images/sample/img_main.jpg'
 import Image from 'next/image'
 import { PageHero } from '@/components/PageHero'
 import { KeyMessage, SecondaryFeatures } from '@/components/KeyMessage'
@@ -16,9 +15,7 @@ import { Footer } from '@/components/Footer'
 import ContactUs from '@/components/ContactUs'
 
 export default function WaysToGive() {
-
-
-  const {t} = useTranslation([ 'ways-to-give','home']);
+  const { t } = useTranslation(['ways-to-give', 'home'])
 
   return (
     <>
@@ -28,7 +25,7 @@ export default function WaysToGive() {
       <Header />
       <main>
         <div className="relative">
-        <div className="absolute inset-x-0 -bottom-14 -top-48 h-72 translate-y-48 overflow-hidden lg:h-96 lg:translate-y-[0%]">
+          <div className="absolute inset-x-0 -bottom-14 -top-48 h-72 translate-y-48 overflow-hidden lg:h-96 lg:translate-y-[0%]">
             <Image
               className="absolute brightness-70"
               src={backgroundImage}
@@ -39,20 +36,16 @@ export default function WaysToGive() {
             />
           </div>
           <PageHero title={t('home:header.ways_to_give')} />
-          <KeyMessage
-            text={
-              t('key_message_detail')
-            }
-          />
+          <KeyMessage text={t('key_message_detail')} />
           <Container></Container>
           <Container>
-            <CardList t={t}/>
+            <CardList t={t} />
           </Container>
-          <Container>
+          {/* <Container>
             <FAQ t={t}/>
-          </Container>
+          </Container> */}
           <Container>
-            <ContactUs t={t}/>
+            <ContactUs t={t} />
           </Container>
         </div>
       </main>
@@ -61,11 +54,10 @@ export default function WaysToGive() {
   )
 }
 
-
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['home','ways-to-give'])),
+      ...(await serverSideTranslations(locale, ['home', 'ways-to-give'])),
       // Will be passed to the page component as props
     },
   }
